@@ -65,8 +65,8 @@ app.post("/forgot-password", async (req, res) => {
     const transporter = nodemailer.createTransport({
       service: "gmail",
       auth: {
-        user: "mohanty4raj@gmail.com",
-        pass: "Raj4@gmail",
+        user: "abdc@gmail.com",
+        pass: "456erT@gmail",
       },
     });
 
